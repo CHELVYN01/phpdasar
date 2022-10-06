@@ -38,17 +38,17 @@
 
 <body>
 
-    <form action="latihanlb.php">
+    <form action="latihanlb.php" method="POST">
         <table>
             <tr>
                 <td>
-                    <p>NIM <input class="input1" type="text"></p>
-                    <p> NAMA <input class="input2" type="text"> </p>
+                    <p>NIM <input class="input1" type="text" name="nim"></p>
+                    <p> NAMA <input class="input2" type="text" name="nama"> </p>
                     <p> Status Kelulusan <select name="opt" id="">
                             <option value="memuaskan">Memuaskan </option>
                             <option value="No">Tidak memuasakan</option>
                         </select></p>
-                    <input class="tombol" type="submit">
+                    <input class="tombol" type="Submit">
                 </td>
 
         </table>
