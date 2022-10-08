@@ -9,8 +9,9 @@
 </head>
 
 <body>
-    <h1>hahahaahah</h1>
-    Mahasiswa dengan nama <?php echo $_POST["nama"];  ?> NIM <?php echo $_POST["nim"] ?> berhasil menyelesaikan studi S1 dengan predikat
+    <h1>STATUS KELULUSAN MAHASISWA</h1>
+    Mahasiswa dengan nama <?php echo $_POST["nama"];  ?> NIM <?php echo $_POST["nim"] ?> berhasil menyelesaikan studi S1 dengan predikat <?php echo $_POST["opt"]; ?>
+    <?php  ?>
 </body>
 
 </html>

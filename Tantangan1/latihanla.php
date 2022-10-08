@@ -12,8 +12,10 @@
 
         }
 
+
         .input1 {
-            margin-left: 85px;
+            margin-left: 87px;
+
         }
 
         .input2 {
@@ -32,7 +34,10 @@
 
         .tombol {
             margin-left: 100px;
+            margin-bottom: 10px;
         }
+
+        p {}
     </style>
 </head>
 
@@ -44,11 +49,11 @@
                 <td>
                     <p>NIM <input class="input1" type="text" name="nim"></p>
                     <p> NAMA <input class="input2" type="text" name="nama"> </p>
-                    <p> Status Kelulusan <select name="opt" id="">
+                    <p> Status Kelulusan <select name="opt">
                             <option value="memuaskan">Memuaskan </option>
                             <option value="No">Tidak memuasakan</option>
                         </select></p>
-                    <input class="tombol" type="Submit">
+                    <input class="tombol" type="Submit" value="submit data">
                 </td>
 
         </table>
