@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {
-            margin: auto;
-        }
-
         table {
+            margin: auto;
+            padding: auto;
             border: black solid 3px;
+
 
         }
     </style>
