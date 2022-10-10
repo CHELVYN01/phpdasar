@@ -16,23 +16,23 @@
             </td>
         </tr>
         <tr>
-            <th>Nama</th>
+            <td>Nama</td>
             <td><?php echo $_POST["nama"]; ?></td>
         </tr>
         <tr>
-            <th>Alamat</th>
+            <td>Alamat</td>
             <td><?php echo $_POST["alamat"]; ?></td>
         </tr>
         <tr>
-            <th>Umur</th>
+            <td>Umur</td>
             <td><?php echo $_POST["umur"]; ?></td>
         </tr>
         <tr>
-            <th>Jenis Kelamin</th>
+            <td>Jenis Kelamin</td>
             <td><?php echo $_POST["genre"]; ?></td>
         </tr>
         <tr>
-            <th>Hobby</th>
+            <td>Hobby</td>
             <td><?php
                 $opt = "";
                 $hobi = $_POST["hobi"];
@@ -42,6 +42,7 @@
                 ?></td>
         </tr>
     </table>
+
 
 
 
