@@ -36,8 +36,6 @@
             margin-left: 100px;
             margin-bottom: 10px;
         }
-
-        p {}
     </style>
 </head>
 

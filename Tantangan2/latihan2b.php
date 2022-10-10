@@ -9,15 +9,43 @@
 </head>
 
 <body>
-    <table>
+    <table border="1">
         <tr>
-            <h1>FORM BIODATA - REVIEW</h1>
+            <td colspan="2">
+                <h1>FORM BIODATA - REVIEW</h1>
+            </td>
         </tr>
         <tr>
-            <td>Name</td>
-            <td></td>
+            <th>Nama</th>
+            <td><?php echo $_POST["nama"]; ?></td>
+        </tr>
+        <tr>
+            <th>Alamat</th>
+            <td><?php echo $_POST["alamat"]; ?></td>
+        </tr>
+        <tr>
+            <th>Umur</th>
+            <td><?php echo $_POST["umur"]; ?></td>
+        </tr>
+        <tr>
+            <th>Jenis Kelamin</th>
+            <td><?php echo $_POST["genre"]; ?></td>
+        </tr>
+        <tr>
+            <th>Hobby</th>
+            <td><?php
+                $opt = "";
+                $hobi = $_POST["hobi"];
+                for ($i = 0; $i < count($hobi); $i++) {
+                    echo $hobi[$i], ",";
+                }
+                ?></td>
         </tr>
     </table>
+
+
+
+
 </body>
 
 </html>

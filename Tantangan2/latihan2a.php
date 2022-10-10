@@ -51,52 +51,52 @@
             <tr>
                 <td>Jenis Kelamin</td>
                 <td>:</td>
-                <td><input type="radio" name="genre">Pria</td>
+                <td><input type="radio" name="genre" value="Pria">Pria</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="radio" name="genre">Wanita</td>
+                <td><input type="radio" name="genre" value="Wanita">Wanita</td>
             </tr>
             <tr>
                 <td>Hobi</td>
                 <td>:</td>
-                <td><input type="checkbox" name="music">Music</td>
+                <td><input type="checkbox" name="hobi[]" value="Music">Music</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="checkbox" name="programing">Programming</td>
+                <td><input type="checkbox" name="hobi[]" value="Programing">Programming</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="checkbox" name="game">Game</td>
+                <td><input type="checkbox" name="hobi[]" value="Game">Game</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="checkbox" name="movies">Movies</td>
+                <td><input type="checkbox" name="hobi[]" value="Movies">Movies</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="checkbox" name="traveling">Travelling</td>
+                <td><input type="checkbox" name="hobi[]" value="Travelling">Travelling</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="checkbox" name="sport">Sport</td>
+                <td><input type="checkbox" name="hobi[]" value="Sport">Sport</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="checkbox" name="organization">Organization</td>
+                <td><input type="checkbox" name="hobi[]" value="Organization">Organization</td>
             </tr>
             <tr>
                 <td></td>
                 <td></td>
-                <td><input type="checkbox" name="automotive">Automotive</td>
+                <td><input type="checkbox" name="hobi[]" value="Automotive">Automotive</td>
             </tr>
             <tr>
                 <td><input type="submit" name="tombol" id="tombol"></td>
