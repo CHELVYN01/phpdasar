@@ -9,26 +9,29 @@
 </head>
 
 <body>
-    <form action="latatihan.php" method="POST"></form>
-    <label for="user">User Name</label>
-    <pre><input type="text" name="nama"></pre><br>
-    <label for="sandi">Password</label>
-    <pre><input type="text" name="password"></pre><br>
-    <input type="submit" name="tekan" id="tekan">
+    <form action="bokol.php" method="POST">
+        <label for="user">User Name</label>
+        <input type="text" name="nama"><br>
+        <label for="sandi">Password</label>
+        <input type="text" name="password"><br>
+        <input type="submit" name="tekan" id="tekan">
+    </form>
 
-    <?php
-    $user = "";
-    $password = "";
-    $user = $_POST["nama"];
-    $password = $_POST["password"];
 
-    if ($user = "admin" && $password = "admin123") {
-        echo "selamat datang anda sukses login";
-    } elseif ($user = "" && $password = "") {
-    } else {
-        echo "Mohon maaf anda gagal login";
-    }
-    ?>
+
 </body>
 
 </html>
+
+<?php
+$users = "admin";
+$passwords = "admin123";
+$user = $_POST["nama"];
+$password = $_POST["password"];
+
+if ($user == $users && $password == $passwords) {
+    echo "selamat datang anda sukses login";
+} else {
+    echo "Mohon maaf anda gagal login";
+}
+?>
