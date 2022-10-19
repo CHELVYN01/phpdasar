@@ -10,17 +10,12 @@
 
 <body>
     <?php
-
-    $hari = [23, 45, 36, 27, 33, 32, 30, 28, 35, 32];
-    echo "<table border = 1>";
-    foreach ($hari as $i => $data) {
-        echo "<tr>";
-        echo "<td>hari ke-", $i + 1;
-        echo "<td>$data";
+    $hobi = $_POST['hobi'];
+    foreach ($hobi as $h => $data) {
+        echo $h + 1, ". ";
+        echo $data, "<br>";
     }
-    echo "</td>";
     ?>
-
 </body>
 
 </html>

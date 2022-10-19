@@ -23,7 +23,7 @@
         echo "<input name = 'hobi[]' value = '$dh' type = 'checkbox'/>$dh";
         echo "<br>";
     }
-    echo "<inputan type= 'submit'/>";
+    echo "<input type= 'submit'/>";
     echo "</form>";
     ?>
 </body>
